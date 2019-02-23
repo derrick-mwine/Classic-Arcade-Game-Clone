@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Revalia', cursive;
+    /* source for background style: https://24ways.org/2011/css3-patterns-explained */
+    background: linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px, linear-gradient(45deg, #92baac 45px, transparent 45px, transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px), linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px, #92baac 68px, #92baac 113px, transparent 113px, transparent 158px, #92baac 158px);
+    background-color: #e1ebbd;
+    background-size: 200px 200px;
+}
+
+.wrapper {
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    margin: 0px 0px 0px 0px;
+}
+
+.game-title {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: 'Slackey', cursive;
+    color: #000080;
+}
+
+.game-instruction:hover {
+    color: #444;
+}
+
+.intro-popup {
+    display: block;
+    position: fixed;
+    top: 128px;
+    width: 465px;
+    padding: 30px 20px 90px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: linear-gradient(140deg, #209206 30%, #5fc148 70%);
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: 'Revalia', cursive;
+}
+
+.end-popup {
+    display: none;
+    position: fixed;
+    top: 208px;
+    width: 465px;
+    padding: 30px 20px 55px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: linear-gradient(140deg, #209206 30%, #5fc148 70%);
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-family: 'Revalia', cursive;
+}
+
+.rate {
+    display: block;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.rate img {
+    display: inline-block;
+    width: 7%;
+}
+
+.trophies {
+    display: block;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+
+.trophies img {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red {
+    color: #8B0000;
+    font-size: 1.3em;
+}
+
+.bravo {
+    color: #000080;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.infoEnd {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+}
+
+#timer {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    top: 80px;
+    color: #8B0000;
+    font-family: Arial, Vardana, serif;
+}
